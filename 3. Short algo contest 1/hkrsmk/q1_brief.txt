@@ -1,0 +1,10 @@
+You are given a data set that contains all the item’s names, and an item’s name is represented as an ordered sequence of strings separated by a single space and the strings contain only lowercase English alphabets(a-z) and digits(0-9). for example, a valid name could be, “apple iphone se 2”. Queries for the new search engine will be a sequence of alphanumeric strings separated by space. For example, “se 2” or “11 pro max” and the search engine has to answer how many different items are there in the data set containing the query sequence in their name in exact order. For example, “se 2” matches the item “apple iphone se 2”, however “app” doesn’t match this item.
+
+Input
+Input starts with an integer T (1 ≤ T ≤ 15), denoting the number of test cases. The first line of each test case will contain two integers N (1 ≤ N ≤ 104) and Q (1 ≤ Q ≤ 104). Here, N is the number of items in the database and Q is the total number of queries. Each of the next N lines will contain an item’s name as described.  Each of the next Q lines will contain a search query as described. You can safely assume that each item’s name will contain at most 10 spaces and the total length will be between 1 to 50.
+
+Output
+For each case, print the case number in a single line. Then for each query Q print the number of different names in the database who contains the query sequence in their name in exact order.
+
+Constraints
+Total number of characters in the dataset will be not more than 7×105
