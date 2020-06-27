@@ -1,0 +1,6 @@
+4. filter out brushing:
+df.query (concentration > 2) & take highest value in continuous indexes
+
+5. then, find counts of each userid within the orders (put in rolling_orders as how many rows to look backwards).
+
+6. Take highest count within each window order, and return userid(s)
