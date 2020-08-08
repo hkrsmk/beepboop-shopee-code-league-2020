@@ -1,6 +1,6 @@
 Beepboop (team) submissions for the Shopee Code League 2020. This was hosted mostly on Kaggle and HackerEarth. Wild ride!
 
-## Challenge 1 Order Brushing
+## Challenge 1 - Order Brushing
 3 hours short challenge.
 To detect order brushing with criteria given. Order brushing is when someone places fake orders to improve their online store stats.
 
